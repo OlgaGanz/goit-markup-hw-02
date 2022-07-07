@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link 
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" 
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" 
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css">
@@ -17,13 +17,13 @@
     <!-- HEADER -->
     <header class="page-header">
         <nav class="navigation">
-            <a class="logo-theme-light logo link" href="/" lang="en">WebStudio</a>
+            <a class="logo-theme-light logo link" href="" lang="en">WebStudio</a>
             <ul class="menu list">
                 <li class="menu-item">
-                    <a class="menu-link link" href="">Студия</a> 
+                    <a class="menu-link link" href="./index.html">Студия</a> 
                 </li>
                 <li class="menu-item">
-                    <a class="menu-link link" href="">Портфолио</a>
+                    <a class="menu-link link" href="./portfolio.html">Портфолио</a>
                 </li>
                 <li class="menu-item">
                     <a class="menu-link link" href="">Контакты</a>
@@ -42,28 +42,30 @@
     <main>
         <!-- FILTERS -->
         <section>
+            <h1 hidden>Фильтры</h1>
             <nav class="navigation">
                 <ul class="list">
                     <li class="menu-item">
-                        <button class="filter-text filter-btn link" type="button">Все</a> 
+                        <button class="filter-text filter-btn link" type="button">Все</button> 
                     </li>
                     <li class="menu-item">
-                        <button class="filter-text filter-btn link" type="button">Веб-сайты</a>
+                        <button class="filter-text filter-btn link" type="button">Веб-сайты</button>
                     </li>
                     <li class="menu-item">
-                        <button class="filter-text filter-btn link" type="button">Приложения</a>
+                        <button class="filter-text filter-btn link" type="button">Приложения</button>
                     </li>
                     <li class="menu-item">
-                        <button class="filter-text filter-btn link" type="button">Дизайн</a>
+                        <button class="filter-text filter-btn link" type="button">Дизайн</button>
                     </li>
                     <li class="menu-item">
-                        <button class="filter-text filter-btn link" type="button">Маркетинг</a>
+                        <button class="filter-text filter-btn link" type="button">Маркетинг</button>
                     </li>
                 </ul>
             </nav>
         </section>
         <!-- PROJECT CARDS-->
         <section class="project-cards">
+            <h2 hidden>Проекты</h2>
             <ul class="list">
                 <li class="one-card">
                     <img
@@ -77,13 +79,83 @@
                 </li>
                 <li class="one-card">
                     <img
-                     src="./images/projects/1_tehnokriak.png" 
-                     alt="Технокряк" 
+                     src="./images/projects/2_poster.png" 
+                     alt="Постер New Orlean vs Golden Star" 
                      width="370" 
                      height="294"
                     />
-                    <h3>Технокряк</h3>
+                    <h3>Постер New Orlean vs Golden Star</h3>
+                    <p>Дизайн</p>
+                </li>
+                <li class="one-card">
+                    <img
+                     src="./images/projects/3_seafood.png" 
+                     alt="Ресторан Seafood" 
+                     width="370" 
+                     height="294"
+                    />
+                    <h3>Ресторан Seafood</h3>
+                    <p>Приложение</p>
+                </li>
+                <li class="one-card">
+                    <img
+                     src="./images/projects/4_prime.png" 
+                     alt="Проект Prime" 
+                     width="370" 
+                     height="294"
+                    />
+                    <h3>Проект Prime</h3>
+                    <p>Маркетинг</p>
+                </li>
+                <li class="one-card">
+                    <img
+                     src="./images/projects/5_boxes.png" 
+                     alt="Проект Boxes" 
+                     width="370" 
+                     height="294"
+                    />
+                    <h3>Проект Boxes</h3>
+                    <p>Приложение</p>
+                </li>
+                <li class="one-card">
+                    <img
+                     src="./images/projects/6_inspiration.png" 
+                     alt="Inspiration has no Borders" 
+                     width="370" 
+                     height="294"
+                    />
+                    <h3>Inspiration has no Borders</h3>
                     <p>Веб-сайт</p>
+                </li>
+                <li class="one-card">
+                    <img
+                     src="./images/projects/7_limited_edition.png" 
+                     alt="Издание Limited Edition" 
+                     width="370" 
+                     height="294"
+                    />
+                    <h3>Издание Limited Edition</h3>
+                    <p>Дизайн</p>
+                </li>
+                <li class="one-card">
+                    <img
+                     src="./images/projects/8_lab.png" 
+                     alt="Проект LAB" 
+                     width="370" 
+                     height="294"
+                    />
+                    <h3>Проект LAB</h3>
+                    <p>Маркетинг</p>
+                </li>
+                <li class="one-card">
+                    <img
+                     src="./images/projects/9_growing.png" 
+                     alt="Growing Business" 
+                     width="370" 
+                     height="294"
+                    />
+                    <h3>Growing Business</h3>
+                    <p>Приложение</p>
                 </li>
             </ul>        
         </section>
@@ -94,17 +166,17 @@
         <address>
             <ul class="list">
                 <li>
-                    <a class="adress link" 
+                    <a class="footer-address adress link" 
                     href="https://goo.gl/maps/icgRV9qtpjfooPRR8" 
                     target="_blank" 
                     rel="noopener norefferer">г. Киев, пр-т Леси Украинки, 26
                 </a>
                 </li>
                 <li>
-                    <a class="footer-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    <a class="footer-address footer-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
                 <li>
-                    <a class="footer-phone link" href="tel:+380961111111">+38 096 111 11 11</a> 
+                    <a class="footer-address footer-phone link" href="tel:+380961111111">+38 096 111 11 11</a> 
                 </li>
             </ul>
         </address>
